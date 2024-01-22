@@ -7,6 +7,22 @@
 <link href='https://fonts.googleapis.com/css?family=Raleway:200,400' rel='stylesheet' type='text/css'>
 <link rel="icon" href="favicon.ico">
 <style>
+
+.transition{
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition:all .4s;
+    -o-transition: all .4s;
+    
+    margin-top:20px;
+    border:1px solid gray;   
+    width:80px;
+    padding:10px;
+    margin-left:50px;
+    position:relative; 
+    cursor:pointer;
+}
+
 .contactIcon {
   height: 40px;
   vertical-align: middle;
@@ -59,15 +75,7 @@ body {
 hr {
   margin-top: 16px;
   width: 61.8%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
+  margin-bottom: 16px;
 }
 
 .nav {
@@ -77,19 +85,30 @@ ul {
   text-align: center;
 }
 
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
 .nav li {
   display: inline;
 }
 
 .nav a {
   text-decoration: none;
-  color: green;
+  color: rgb(210, 210, 210);
   display: inline-block;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 li a:hover {
-  background-color: #111;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 .row {
@@ -120,7 +139,7 @@ li a:hover {
   <h1 class="title">Evan Marlo Anderson</h1>
   <h1 class="subtitle">Undergraduate Computer Science Student</h1>
 </div>
-<hr>stuf</hr>
+<hr></hr>
 <ul class="nav">
   <li><a href="first.html">First</a></li>
   <li><a href="second.html">Second</a></li>
