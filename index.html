@@ -23,14 +23,25 @@
 body {
   font-family: 'Raleway';
   font-weight: 200;
+  background: #040D12;
   margin: 0;
 }
 
-.header {
-  padding: 8px;
-  padding-left: 96px;
-  text-align: left;
-  background: #253d5d;
+.title {
+  /* padding-left: 96px; */
+  margin-bottom: 8px;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.subtitle {
+  /* padding-left: 96px; */
+  margin: 0%;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center;
   color: white;
 }
 
@@ -43,6 +54,42 @@ body {
   /* padding: 8px; */
   padding-left: 96px;
   font-size: 36px;
+}
+
+hr {
+  margin-top: 16px;
+  width: 61.8%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  color: green;
+  display: inline-block;
+  padding: 10px;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 .row {
@@ -69,84 +116,16 @@ body {
 </style>
 </head>
 <body>
-<div class="header">
-  <h1>Evan Marlo Anderson</h1>
-</div>
 <div>
-  <p>
-
-  </p>
+  <h1 class="title">Evan Marlo Anderson</h1>
+  <h1 class="subtitle">Undergraduate Computer Science Student</h1>
 </div>
-<div class="row">
-  <div class="left">
-    <div class="header2">
-      Welcome to my portfolio
-    </div>
-    <p class="custom">
-      Hi, I'm Evan! I'm a Computer Science student at Utah State University.
-    </p>
-    <p class="custom">
-      I currently work at USU's <a href="https://caas.usu.edu/labs/cpl/" target="_blank">Crop Physiology Laboratory</a>, filming lectures for continuing education courses and maintaining websites.
-    </p>
-    <p class="custom">
-      As a student, I've worked on some cool projects from fish feeders to CubeSats. Below are some of my favorite projects.
-    </p>
-    <div class="contactIconWrapper" >
-      <a class="contactIconLink" href="https://www.linkedin.com/in/emanderson/" target="_blank">
-        <img class="contactIcon"src="./linkedin.png"  alt="LinkedIn">
-      </a>
-      <a class="contactIconLink" href="https://gitlab.cs.usu.edu/evan.anderson" target="_blank">
-        <img class="contactIcon" src="./gitlab.png" alt="GitHub">
-      </a>
-      <a class="contactIconLink" href="https://github.com/evanmarlo" target="_blank">
-        <img class="contactIcon" src="./github.png" alt="GitHub">
-      </a>
-    </div>
-    <br>
-    <div class="header2">
-      Contact
-    </div>
-    <p class="custom">
-      email: <a href="mailto: evan.anderson@usu.edu" target="_blank">evan.anderson@usu.edu</a>
-      <br>
-      phone: (208) 705-0314
-    </p>
-    <br>
-    <div class="header2">
-      GASPACS
-    </div>
-    <p class="custom">
-      The <a href="https://en.wikipedia.org/wiki/GASPACS" target="_blank">Get Away Special Passive Attitude Control Satellite</a> (GASPACS) was 1U CubeSat created by undergraduate students, including myself. It was the first satellite created entirely by undergraduate students and the first satellite to use a Raspberry Pi as its onboard computer
-      (we even got a <a href="https://x.com/Raspberry_Pi/status/1539579157033766913?s=20" target="_blank">shoutout</a> from Raspberry Pi).
-    </p>
-    <p class="custom">
-      I started working on the satellite's <a href="https://github.com/SmallSatGasTeam/CubeWorks" target="_blank">open source software</a> in Fall of 2020 and was hired by the Physics department as a Summer Fellow in 2021.
-      I primarily worked on driver protection and transmission protection software in Python. I also worked on unit tests for the flight software.
-    </p>
-    <p class="custom">
-      The satellite was a technology demonstration, testing an inflatable structure in low Earth orbit. The structure purpose was to stabilize the satellite. GASPACS completed both of its objectives: 
-      delpoying an inflatable aeroboom and transmitting a picture back down, as well as determining the boom's effectiveness at passively stabilizing the satellite. 
-    </p>
-    <iframe width="672" height="378" style="padding-left: 96px; border: none;"
-      src="https://www.youtube.com/embed/nWhzdQvO9vo">
-    </iframe>
-    <div>&nbsp;:</div>
-
-    <div class="header2">
-      Pagerduty License Reclamation
-    </div>
-    <p class="custom">
-      During my internship at Centene, I worked on software to better managd the IT organization's paid <a href="https://en.wikipedia.org/wiki/PagerDuty" target="_blank">PagerDuty</a> Licenses.
-    </p>
-  </div>
-  <div class="right">
-    <img src="EvanPic.JPG" alt="Picture of Evan" style="width:30%">
-    <br>
-    <img src="gaspacs.jpg" alt="Picture of GASPACS" style="width:35%; padding-left: 24px;">
-    <br>
-    <img src="gaspacs-lq10.jpg" alt="Picture of GASPACS" style="width:35%; padding-left: 24px;">
-  </div>
-</div>
-
+<hr>stuf</hr>
+<ul class="nav">
+  <li><a href="first.html">First</a></li>
+  <li><a href="second.html">Second</a></li>
+  <li><a href="third.html">Third</a></li>
+  <li><a href="fourth.html">Fouth</a></li>
+</ul>
 </body>
 </html>
