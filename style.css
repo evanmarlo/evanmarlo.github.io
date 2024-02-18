@@ -15,7 +15,7 @@
   body {
     font-family: 'Raleway';
     font-weight: 200;
-    background: #040D12;
+    background: #f8f8f8;
     margin: 0;
   }
   
@@ -25,7 +25,7 @@
     font-size: 34px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: black;
   }
   
   .subtitle {
@@ -34,7 +34,7 @@
     font-size: 21px;
     font-weight: 100;
     text-align: center;
-    color: white;
+    color: black;
   }
   
   /* .header h1 {
@@ -44,7 +44,7 @@
   .pagetitle {
     font-size: 21px;
     font-style: italic;
-    color: white;
+    color: black;
   }
   
   /* .header2 {
@@ -54,46 +54,7 @@
     font-size: 36px;
   } */
 
-  hr {
-    margin-top: 16px;
-    width: 61.8%;
-    margin-bottom: 16px;
-  }
   
-  .nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 24px;
-  }
-  
-  .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-  }
-  
-  .nav li {
-    display: inline;
-  }
-  
-  .nav a {
-    font-weight: 100;
-    font-size: 21px;
-    text-decoration: none;
-    color: rgb(210, 210, 210);
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  li a:hover {
-    color: rgb(255, 255, 255);
-  }
   
   .row {
     display: flex;
@@ -114,4 +75,38 @@
     /* padding: 24px; */
     padding-left: 96px;
     font-size: 18px;
+  }
+
+  .card {
+    border-radius: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #ffffff;
+  }
+
+  ul {
+    border-radius: .5em;
+    list-style-type: none;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0780e3;
+    color: white;
   }
