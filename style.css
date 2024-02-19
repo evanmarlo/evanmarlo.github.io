@@ -18,6 +18,10 @@
     background: #f8f8f8;
     margin: 0;
   }
+
+  p {
+    font-size: 21px;
+  }
   
   .title {
     /* padding-left: 96px; */
@@ -45,10 +49,10 @@
   } */
 
   .pagetitle {
-    font-size: 21px;
+    font-size: 28px;
     font-style: italic;
     color: black;
-    margin-top: 0em;
+    margin-top: .5em;
   }
   
   /* .header2 {
@@ -146,8 +150,9 @@
   } 
   .col_left{ 
     padding: 10px; 
+    /* width: 611111111.8%; */
     width: 61.8%;
-    /* flex: 90%;  */
+    /* flex: 60%;  */
   }
 
   .col_right{ 
@@ -157,7 +162,7 @@
   } 
 
   img {
-    border-radius: .5em;
+    border-radius: 1em;
     display: block;
     margin-left: auto;
     margin-right: auto;
