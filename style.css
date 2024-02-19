@@ -113,6 +113,21 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  a {
+    transition: 0.2s;
+  }
+
+  p a {
+    color: #055875;
+    text-decoration: none;
+  }
+
+  p a:hover {
+    color: #0780e3;
+    text-decoration: underline;
+    /* transition-delay:1s; */
+  }
   
   li:not(.active) a:hover {
     background-color: #0780e3;
