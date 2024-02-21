@@ -179,6 +179,8 @@
   a img {
     border-radius: 0em;
     padding-right: .5em;
+    height: 3em;
+    width: 3em;
   }
 
   img {
@@ -186,7 +188,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 90%; */
+    width: 90%;
   }
 
   .contactIcon {
