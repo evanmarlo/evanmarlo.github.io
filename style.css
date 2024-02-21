@@ -174,7 +174,12 @@
     padding: 10px; 
     width: 38.2%;
     /* flex: 10%;  */
-  } 
+  }
+  
+  a img {
+    border-radius: 0em;
+    padding-right: .5em;
+  }
 
   img {
     border-radius: 1em;
@@ -182,4 +187,16 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+  }
+
+  .contactIcon {
+    height: 3em;
+    width: 3em;
+    vertical-align: middle;
+    float: left;
+    padding: auto;
+  }
+  
+  .contactIconLink {
+    text-decoration: none;
   }
