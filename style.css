@@ -135,8 +135,8 @@
   }
 
   .active {
-    background-color: #ff0000;
-    color: #eaff00
+    background-color: #e6e6e6;
+    color: black
     /* background-color: #e6e6e6;
     color: rgb(240, 240, 240); */
   }
