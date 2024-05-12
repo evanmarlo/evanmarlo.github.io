@@ -119,12 +119,12 @@
   }
 
   p a {
-    color: #055875;
-    text-decoration: none;
+    color: #0780e3;
+    text-decoration: underline;
   }
 
   p a:hover {
-    color: #0780e3;
+    color: rgb(7, 106, 227);
     text-decoration: underline;
     /* transition-delay:1s; */
   }
