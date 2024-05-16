@@ -3,12 +3,6 @@
     height: 40px;
     vertical-align: middle;
   } */
-
-  .block_image {
-    display:block;
-    text-align:center;
-    white-space:nowrap;
-    }
   
   .contactIconLink {
     text-decoration: none;
@@ -184,6 +178,12 @@
     /* 23.6% */
     width: 32.6;
     /* flex: 10%;  */
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
   }
   
   a img {
