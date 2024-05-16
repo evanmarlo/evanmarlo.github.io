@@ -3,6 +3,12 @@
     height: 40px;
     vertical-align: middle;
   } */
+
+  .block_image {
+    display:block;
+    text-align:center;
+    white-space:nowrap;
+    }
   
   .contactIconLink {
     text-decoration: none;
