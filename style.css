@@ -13,7 +13,7 @@
   }
   
   body {
-    font-family: 'Sulphur Point';
+    font-family: "Abel", sans-serif;
     font-weight: 200;
     background: #f8f8f8;
     margin: 0;
@@ -25,7 +25,7 @@
   
   .title {
     /* padding-left: 96px; */
-    font-family: 'Share';
+    font-family: 'Oswald';
     margin-bottom: 8px;
     font-size: 34px;
     font-weight: bold;
@@ -50,7 +50,7 @@
   } */
 
   .pagetitle {
-    font-family: 'Sunflower';
+    font-family: 'Share';
     font-size: 28px;
     font-style: italic;
     color: black;
