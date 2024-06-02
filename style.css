@@ -114,31 +114,34 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-
-  a {
     transition: 0.2s;
   }
 
   p a {
-    color: #0780e3;
+    color: #3ABEF9;
     text-decoration: underline;
+    transition: 0.4s;
   }
 
   p a:hover {
-    color: rgb(7, 106, 227);
+    color: #000dff;
     text-decoration: underline;
     /* transition-delay:1s; */
   }
+
+  hr {
+    border-color: #3ABEF9;
+    width: 33%;
+  }
   
   li:not(.active) a:hover {
-    background-color: #0780e3;
+    background-color: #3572EF;
     color: white;
   }
 
   .active {
     background-color: #e6e6e6;
-    color: black
+    color: black;
     /* background-color: #e6e6e6;
     color: rgb(240, 240, 240); */
   }

@@ -13,6 +13,7 @@
 <body>
 <div>
   <h1 class="title">Evan Marlo Anderson</h1>
+  <hr>
   <h1 class="subtitle">Undergraduate Computer Science Student</h1>
 </div>
 <ul>
@@ -27,7 +28,7 @@
       <div class="col_left" style="padding-left: 1em; width: 65%">
         <h2 class="pagetitle">AI Typing Trainer</h2>
         <p>
-          For my CS5890 <i>AI Applications in Education</i> final project, I created a typing trainer that makes use of generative AI. This trainer uses ChatGPT to generate new text for the user every time they want to practice typing. It also tracks what keys the user struggles with, and generates text that incorporates those keys.
+          For my CS5890 <i>AI Applications in Education</i> <a href="https://github.com/evanmarlo/AI_typing_trainer"; target=”_blank”>final project</a> I created a typing trainer that makes use of generative AI. This trainer uses ChatGPT to generate new text for the user every time they want to practice typing. It also tracks what keys the user struggles with, and generates text that incorporates those keys.
       </p>
       <h2 class="pagetitle">Purpose</h2>
       <p>
@@ -37,9 +38,12 @@
       <p>
         I wrote this project in Python and used Tkinter for the UI. I used GPT 3.5 Turbo for text generation. I spent a total of $0.04 on the OpenAI API throughout developing, testing, and demonstrating my prototype in class (which I found surprisingly cheap).
       </p>
-      <h2 class="pagetitle">Contributions</h2>
+      <h2 class="pagetitle">Evaluation</h2>
       <p>
-        As a member of the software team I wrote driver and transmission protection software. This included ensuring that the satellite could continue to function even if any noncritical piece of hardware (such as a solar panel) failed. It also included software to ensure every entry into the transmission queue was formatted correctly, and erased (or dropped) in the case of data corruption. The GASPACS software is open-source and can be found <a href="https://github.com/SmallSatGasTeam/CubeWorks"; target=”_blank”>here</a>.
+        Anecdotally, ChatGPT did a great job at generating text with noticeable ammounts of letters the user struggles with. In order to quantitatively show the letter increase, I found data on regular English letter frequencies. I also charted letter frequencies of regular ChatGPT text, that was (expectedly) identical.
+      </p>
+      <p>
+        I charted letter frequencies for text after the user struggled with the letter "Z". The text was sensible and the frequency of "Z" increased to 8.8%, or 44 times as many "Z"s as would normally be generated.
       </p>
       <p>
         Alongside this, I performed unit tests and wrote code documentation.
