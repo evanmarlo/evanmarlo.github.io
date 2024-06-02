@@ -22,6 +22,17 @@
   p {
     font-size: 24px;
   }
+
+  figcaption {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0%;
+    padding-bottom: 1em;
+  }
+
+  .captioned_image {
+    padding-bottom: 10%;
+  }
   
   .title {
     /* padding-left: 96px; */
@@ -115,6 +126,18 @@
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.2s;
+  }
+
+  figcaption a {
+    color: #3ABEF9;
+    text-decoration: underline;
+    transition: 0.4s;
+  }
+
+  figcaption a:hover {
+    color: #000dff;
+    text-decoration: underline;
+    /* transition-delay:1s; */
   }
 
   p a {
