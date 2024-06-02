@@ -13,7 +13,7 @@
   }
   
   body {
-    font-family: 'Raleway';
+    font-family: 'Sulphur Point';
     font-weight: 200;
     background: #f8f8f8;
     margin: 0;
@@ -25,6 +25,7 @@
   
   .title {
     /* padding-left: 96px; */
+    font-family: 'Share';
     margin-bottom: 8px;
     font-size: 34px;
     font-weight: bold;
@@ -49,6 +50,7 @@
   } */
 
   .pagetitle {
+    font-family: 'Sunflower';
     font-size: 28px;
     font-style: italic;
     color: black;
