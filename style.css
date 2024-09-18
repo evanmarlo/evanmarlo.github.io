@@ -1,8 +1,10 @@
-
-/* contactIcon {
-    height: 40px;
-    vertical-align: middle;
-  } */
+  body {
+    font-family: "Abel", sans-serif;
+    font-weight: 200;
+    background-color: white;
+    /* background: #f8f8f8; */
+    margin: 0;
+  }
   
   .contactIconLink {
     text-decoration: none;
@@ -10,13 +12,6 @@
   
   .contactIconWrapper {
     padding-left: 96px;
-  }
-  
-  body {
-    font-family: "Abel", sans-serif;
-    font-weight: 200;
-    /* background: #f8f8f8; */
-    margin: 0;
   }
 
   p {
