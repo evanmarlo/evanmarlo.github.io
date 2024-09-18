@@ -12,7 +12,8 @@
 
 <!-- Script should prevent flickering when browser theme isn't light -->
 <script>
-  document.documentElement.dataset.theme = 'light';
+    const theme = localStorage.getItem('theme') || 'light';
+    document.documentElement.dataset.theme = theme;
 </script>
 
 </head>
