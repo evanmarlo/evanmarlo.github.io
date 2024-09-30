@@ -3,21 +3,9 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script>
-    if (localStorage.getItem('darkmode') === '1') {
-      document.documentElement.classList.add('darkmode');
-    }
+    const theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = theme;
   </script>
-  <style>
-    .darkmode body {
-      background: #222;
-    }
-    .darkmode .light-only {
-      display: none;
-    }
-    html:not(.darkmode) .dark-only {
-      display: none;
-    }
-  </style>
 <title>Evan Anderson Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
