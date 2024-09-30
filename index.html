@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
-  <script>
-    const theme = localStorage.getItem("theme") || "light";
-    document.documentElement.dataset.theme = theme;
-  </script>
 <title>Evan Anderson Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +11,10 @@
 <link rel="icon" href="favicon.ico">
 </head>
 <body>
+  <script>
+    const theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = theme;
+  </script>
 <div>
   <h1 class="title">Evan Marlo Anderson</h1>
   <hr>
