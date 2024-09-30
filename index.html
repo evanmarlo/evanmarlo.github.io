@@ -3,15 +3,20 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script>
-    // Do this before the body gets parsed
     if (localStorage.getItem('darkmode') === '1') {
       document.documentElement.classList.add('darkmode');
     }
   </script>
   <style>
-    .darkmode body { background: #222; }
-    .darkmode .light-only { display: none; }
-    html:not(.darkmode) .dark-only { display: none; }
+    .darkmode body {
+      background: #222;
+    }
+    .darkmode .light-only {
+      display: none;
+    }
+    html:not(.darkmode) .dark-only {
+      display: none;
+    }
   </style>
 <title>Evan Anderson Portfolio</title>
 <meta charset="UTF-8">
