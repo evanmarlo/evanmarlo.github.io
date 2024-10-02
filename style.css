@@ -1,6 +1,8 @@
   body {
     font-family: "Abel", sans-serif;
     font-weight: 200;
+    background-image: url("graydots.jpg");
+    background-size: cover;
     background-color: white;
     /* background: #f8f8f8; */
     margin: 0;
@@ -97,7 +99,7 @@
     border-radius: .5em;
     margin-left: 2em;
     margin-right: 2em;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
   ul {
