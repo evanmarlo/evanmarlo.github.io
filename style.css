@@ -8,18 +8,32 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
+  /* Case where screen is desktop (horizontal) resolution */
   .flex-container {
     display: flex;
     flex-direction: row;
   }
+  .headshot_mobile {
+    display: none;
+  }
+  .headshot_desktop {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-    .flex-container {
+@media only screen and (max-width: 1000px) {
+  /* Case where screen is mobile (vertical) resolution */
+  .flex-container {
      display: flex;
      flex-direction: column;
    }
+  .headshot_desktop {
+  display: none;
+  }
+  .headshot_mobile {
+  width: 50%;
+  }
 }
 
 .contactIconLink {
