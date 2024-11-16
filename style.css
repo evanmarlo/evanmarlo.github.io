@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
   /* Case where screen is desktop (horizontal) resolution */
   .flex-container {
     display: flex;
@@ -22,7 +22,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   /* Case where screen is mobile (vertical) resolution */
   .flex-container {
      display: flex;
