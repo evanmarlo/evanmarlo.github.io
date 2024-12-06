@@ -13,8 +13,7 @@ body {
   margin-right: auto;
   position: relative;
   overflow: hidden;
-  width: 85%;
-  padding-top: 110%;
+  aspect-ratio: 8.5 / 11;
 }
 
 .responsive-iframe {
