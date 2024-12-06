@@ -9,10 +9,12 @@ body {
 }
 
 .custom_PDF {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   position: relative;
   overflow: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
   aspect-ratio: 8.5 / 11;
 }
 
