@@ -8,16 +8,6 @@ body {
   margin: 0;
 }
 
-.custom_PDF {
-  /* margin-left: auto;
-  margin-right: auto; */
-  position: relative;
-  overflow: hidden;
-  margin-left: 10%;
-  margin-right: 10%;
-  aspect-ratio: 8.5 / 11;
-}
-
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -40,6 +30,16 @@ body {
   .headshot_desktop {
     width: 85%;
   }
+
+  .custom_PDF {
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: relative;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    aspect-ratio: 8.5 / 11;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -53,6 +53,14 @@ body {
   }
   .headshot_mobile {
   width: 50%;
+  }
+
+  .custom_PDF {
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 8.5 / 11;
   }
 }
 
