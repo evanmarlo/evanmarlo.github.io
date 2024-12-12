@@ -55,6 +55,11 @@ body {
   width: 50%;
   }
 
+  .horizontal_PDF {
+    position: relative;
+    aspect-ratio: 1.1/1;
+  }
+
   .custom_PDF {
     /* aspect-ratio: 8.5 / 11; */
     /* margin: auto;
@@ -67,6 +72,7 @@ body {
     /* margin-left: 10%;
     margin-right: 10%;
     width: 15em; */
+    background-color: white;
     position: relative;
     aspect-ratio: 8.5 / 11;
   }
