@@ -68,7 +68,7 @@ body {
     margin-right: 10%;
     width: 15em; */
     position: relative;
-    aspect-ratio: 1;
+    aspect-ratio: 8.5 / 11;
   }
 }
 
