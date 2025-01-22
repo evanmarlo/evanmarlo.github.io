@@ -148,8 +148,6 @@ figcaption {
   font-size: 36px;
 } */
 
-
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -240,6 +238,11 @@ li:not(.active) a:hover {
   color: black;
   /* background-color: #e6e6e6;
   color: rgb(240, 240, 240); */
+}
+
+a:hover {
+  color: #000dff;
+  text-decoration: underline;
 }
 
 .card {
