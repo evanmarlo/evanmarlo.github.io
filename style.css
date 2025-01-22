@@ -240,11 +240,6 @@ li:not(.active) a:hover {
   color: rgb(240, 240, 240); */
 }
 
-a:hover {
-  color: #000dff;
-  text-decoration: underline;
-}
-
 .card {
   padding: 0em;
 }
