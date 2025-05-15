@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  <link rel="stylesheet" href="style.css">
 <title>Evan Anderson Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&family=News+Cycle:wght@400;700&family=Oswald:wght@200..700&family=Prociono&family=Share:ital,wght@0,400;0,700;1,400;1,700&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sulphur+Point:wght@300;400;700&family=Sunflower:wght@300&display=swap" rel="stylesheet"><link rel="icon" href="favicon.ico">
 </head>
-<body>
-<div>
-  <h1 class="title">Evan Marlo Anderson</h1>
-  <hr>
-  <h1 class="subtitle">Undergraduate Computer Science Student</h1>
-</div>
-<ul style="background-color: rgb(214, 214, 214);">
-  <li class="inactive"><a href="/">Home</a></li>
-  <li class="active"><a href="resume">Resume</a></li>
-  <li class="inactive"><a href="gaspacs">GASPACS</a></li>
-  <li class="inactive"><a href="dispenser">ITLS 4270 Dispenser</a></li>
-  <li class="inactive"><a href="reclamation">License Reclamation</a></li>
-  <li class="inactive"><a href="tutor">Typing Trainer</a></li>
-  <li class="inactive"><a href="dashboard">SOAR Inventory</a></li>
-</ul>
-<div class="custom_PDF">
-  <embed class="responsive-iframe" src="resume.pdf#zoom=FitH"/>
-</div>
-  <p>
-    <center>
-      <a href="./resume.pdf" download="EvanAndersonResume">Download resume PDF</a>
-    </center>
+
+<body style="height: 100%;">
+<div id="first_parallax" class="parallax" style="height: 100%">
+  <!-- Two hamburgers, one is for desktop the other is for mobile -->
+  <a href="#!">
+    <img id="hamburger" class="navimage" data-is-open="false" onclick="navOpen(false)" src="menu.png">
+  </a>
+  <a href="#!">
+    <img id="hamburger_mobile" class="navimage_mobile" data-is-open="false" onclick="navOpen(true)" src="menu.png">
+  </a>
+  <div class="nav">
+    <div class="nav_item_container">
+      <a class="nav_item" href="/">
+        <img class="nav_item_img" src="homeicon.png">
+        <p class="nav_item_text">Home</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="resume">
+        <img class="nav_item_img" src="resumeicon.png">
+        <p class="nav_item_text">Resume</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="gaspacs">
+        <img class="nav_item_img" src="gasiconsmall.png">
+        <p class="nav_item_text">GASPACS</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="dispenser">
+        <img class="nav_item_img" src="feedericonsmall.png">
+        <p class="nav_item_text">Fish Food Dispenser</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="dashboard">
+        <img class="nav_item_img" src="dashboardiconsmall.png">
+        <p class="nav_item_text">SOAR Dashboard</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="tutor">
+        <img class="nav_item_img" src="keyboardicon.png">
+        <p class="nav_item_text">Typing Trainer</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="reclamation">
+        <img class="nav_item_img" src="keyicon.png">
+        <p class="nav_item_text">License Reclamation</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="pdf_container">
+    <embed class="pdf" src="resume.pdf#zoom=FitH"/>
+  </div>
+  <p class="download">
+    <a href="./resume.pdf" download="EvanAndersonResume">Click to open resume PDF</a>
   </p>
+
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+
 </body>
 </html>

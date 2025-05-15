@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
   <link rel="stylesheet" href="style.css">
 <title>Evan Anderson Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&family=News+Cycle:wght@400;700&family=Oswald:wght@200..700&family=Prociono&family=Share:ital,wght@0,400;0,700;1,400;1,700&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sulphur+Point:wght@300;400;700&family=Sunflower:wght@300&display=swap" rel="stylesheet"><link rel="icon" href="favicon.ico">
-<link rel="icon" href="favicon.ico">
 </head>
+
 <body>
-<div>
-  <h1 class="title">Evan Marlo Anderson</h1>
-  <hr>
-  <h1 class="subtitle">Undergraduate Computer Science Student</h1>
-</div>
-<div class="nav_bar">
-  <ul style="background-color: rgb(214, 214, 214);">
-    <li class="active"><a href="/">Home</a></li>
-    <li class="inactive"><a href="resume">Resume</a></li>
-    <li class="inactive"><a href="gaspacs">GASPACS</a></li>
-    <li class="inactive"><a href="dispenser">ITLS 4270 Dispenser</a></li>
-    <li class="inactive"><a href="reclamation">License Reclamation</a></li>
-    <li class="inactive"><a href="tutor">Typing Trainer</a></li>
-    <li class="inactive"><a href="dashboard">SOAR Inventory</a></li>
-  </ul>
-</div>
-<div class="flex-container">
-  <div>
-    <div style="padding-left: 2em;">
-      <h2 class="pagetitle">About Me</h2>
-      <p class="body_text">My name is Evan Anderson, and I grew up in Pocatello, Idaho. I recently graduated from Utah State University with a Bachelor of Science in Computer Science and a minor in Multimedia Development.</p>
-      <p class="body_text">I love working with technology and solving problems. Since a young age, I have been fascinated by computers. My interest in video games, and video game development as a kid sparked my interest in coding. This led me to studying Computer Science, and allowed me to discover esports and leadership opportunities in college.</p>
-      <p class="body_text">As a student, I've been able to work on some interesting projects for my coursework, as well as contribute to meaningful work through various internships. This portfolio showcases some of my favorite projects, and includes links to open source software. For work that is confidential, such as those done as Centene, approved summaries are provided.</p>
-      <p class="body_text">I am currently working as an IT technician intern at iFIT. I am searching for full-time employment opportunities after this internship concludes in August 2025.</p>
-
-    <div class="headshot_mobile" style="padding-right: 10%;"><img src="headshot.jpeg"></img></div>
-
-    <h2 class="pagetitle">Contact</h2>
-    <p class="link">
-      Email: <a href="mailto:evan.anderson@usu.edu">evan.anderson@usu.edu</a>
-    </p>
-    <div>
-      <a class="contactIconLink" href="https://www.linkedin.com/in/emanderson/" target="_blank">
-        <img class="contactIcon"src="linkedin.png"  alt="LinkedIn">
+<div id="first_parallax" class="parallax">
+  <!-- Two hamburgers, one is for desktop the other is for mobile -->
+  <a href="#!">
+    <img id="hamburger" class="navimage" data-is-open="false" onclick="navOpen(false)" src="menu.png">
+  </a>
+  <a href="#!">
+    <img id="hamburger_mobile" class="navimage_mobile" data-is-open="false" onclick="navOpen(true)" src="menu.png">
+  </a>
+  <div class="nav">
+    <div class="nav_item_container">
+      <a class="nav_item" href="/">
+        <img class="nav_item_img" src="homeicon.png">
+        <p class="nav_item_text">Home</p>
       </a>
-      <a class="contactIconLink" href="https://github.com/evanmarlo" target="_blank">
-        <img class="contactIcon" src="github.png" alt="GitHub">
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="resume">
+        <img class="nav_item_img" src="resumeicon.png">
+        <p class="nav_item_text">Resume</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="gaspacs">
+        <img class="nav_item_img" src="gasiconsmall.png">
+        <p class="nav_item_text">GASPACS</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="dispenser">
+        <img class="nav_item_img" src="feedericonsmall.png">
+        <p class="nav_item_text">Fish Food Dispenser</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="dashboard">
+        <img class="nav_item_img" src="dashboardiconsmall.png">
+        <p class="nav_item_text">SOAR Dashboard</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="tutor">
+        <img class="nav_item_img" src="keyboardicon.png">
+        <p class="nav_item_text">Typing Trainer</p>
+      </a>
+    </div>
+    <div class="nav_item_container">
+      <a class="nav_item" href="reclamation">
+        <img class="nav_item_img" src="keyicon.png">
+        <p class="nav_item_text">License Reclamation</p>
       </a>
     </div>
   </div>
+  <div class="intro">
+    <p class="intro_text" style="opacity: 0;">Hi, I'm Evan</p>
+    <p class="intro_sub_text" style="opacity: 0;">Welcome to my online portfolio.</p>
+  </div>
+  <div class="arrow" style="opacity: 0;">
+    <img src="arrow.png" style="display: block; margin-left: auto; margin-right: auto; width: 8em;">
+  </div>
+</div>
 
-  </div> 
-    <div class="headshot_desktop" style="padding-right: 10%;"><img src="headshot.jpeg"></img></div>
+<div class="separator">
+  <div class="row">
+    <div class="column">
+      <img class="headshot_desktop" src="gradphoto.JPG" alt="Evan Anderson holding Utah State University diploma"></img>
+    </div>
+    <div class="column">
+      <div class="column_box">
+        <p class="body_header">About Me</p>
+        <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Evan Anderson, and I grew up in Pocatello, Idaho. I recently graduated from Utah State University with a Bachelor of Science in Computer Science and a minor in Multimedia Development.</p>
+        <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love working with technology and solving problems. Since a young age, I have been fascinated by computers. My interest in video games, and video game development as a kid sparked my interest in coding. This led me to studying Computer Science, and allowed me to discover esports and leadership opportunities in college.</p>
+        <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a student, I've been able to work on some interesting projects for my coursework, as well as contribute to meaningful work through various internships. This portfolio showcases some of my favorite projects, and includes links to open source software. For work that is confidential, such as those done as Centene, approved summaries are provided.</p>
+        <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am currently working as an IT technician intern at iFIT. I am searching for full-time employment opportunities after this internship concludes in August 2025.</p>
+        <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some languages/technologies I am proficient with are Python, Java, Javascript, SQL, Git, Jira, Photoshop, and Microsoft Office. I am always looking to expand my skillset.</p>
+        <br>
+        <p class="body_text">Contact: <a href="mailto:evanmand@protonmail.com">evanmand@protonmail.com</a></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div style="margin: auto; width: fit-content; padding-bottom: 2em; display: flex;">
+    <a class="contactIconLink" href="https://www.linkedin.com/in/emanderson/" target="_blank">
+      <img class="contactIconLeft" src="linkedin.png"  alt="LinkedIn">
+    </a>
+    <a class="contactIconLink" href="https://github.com/evanmarlo" target="_blank">
+      <img class="contactIconRight" src="github.png" alt="GitHub">
+    </a>
+  </div>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+
+<div class="parallax last_parallax">
+  <div class="home_projects">
+    <p class="project_text">Featured Projects</p>
+    <div class="row">
+      <div class="project_column">
+        <a class="project_img project_link" style="background-image: url('gasicon.jpg')" onmouseover="projectReveal(0)" onmouseleave="projectHide(0)" href="gaspacs">
+          <p class="project_title" id="gas" style="opacity: 0;">GASPACS</p>
+        </a>
+      </div>
+      <div class="project_column">
+        <a class="project_img project_link" style="background-image: url('feedericon.jpg')" onmouseover="projectReveal(1)" onmouseleave="projectHide(1)" href="dispenser">
+          <p class="project_title" id="fish" style="opacity: 0;">Food Dispenser</p>
+        </a>
+      </div>
+      <div class="project_column">
+        <a class="project_img project_link" style="background-image: url('dashboardicon.jpg')" onmouseover="projectReveal(3)" onmouseleave="projectHide(3)" href="dashboard">
+          <p class="project_title" id="dashboard" style="opacity: 0;">SOAR Dashboard</p>
+        </a>
+      </div>
+    </div>
+    <div class="row" style="padding-bottom: 4em;">
+      <div class="project_column">
+        <a class="project_img project_link" style="background-image: url('tutoricon.jpg')" onmouseover="projectReveal(2)" onmouseleave="projectHide(2)" href="tutor">
+          <p class="project_title" id="typing" style="opacity: 0;">AI Typing Trainer</p>
+        </a>
+      </div>
+      <div class="project_column">
+        <a class="project_img project_link" style="background-image: url('licenseicon.jpg')" onmouseover="projectReveal(4)" onmouseleave="projectHide(4)" href="reclamation">
+          <p class="project_title" id="license" style="opacity: 0;">License Tools</p>
+        </a>
+      </div>
+      <div class="project_column">
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
