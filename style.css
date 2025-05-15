@@ -317,6 +317,7 @@ a.project_link {
 }
 
 .pdf {
+  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -389,5 +390,8 @@ a.project_link {
 
   .pdf_container {
     padding-top: 10%;
+  }
+  .separator {
+    padding-bottom: 2em;
   }
 }
