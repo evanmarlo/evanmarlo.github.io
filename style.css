@@ -334,8 +334,15 @@ a.project_link {
   font-size: 36px;
 }
 
+.hamburger_mobile {
+  visibility: hidden;
+}
+
 /* For mobile/vertical screen */
 @media only screen and (max-device-width: 1366px) {
+  .hamburger_mobile {
+    visibility: visible;
+  }
   .row {
     width: 80%;
     display: block;

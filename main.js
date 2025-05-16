@@ -157,3 +157,9 @@ function projectHide(projectIndex) {
         license.style.opacity = 0;
     }
 }
+
+const arrow_img = document.getElementById("arrow_img");
+
+if (window.screen.width <= 1366) {
+    arrow_img.src = "black_arrow.png";
+}
